@@ -14,10 +14,10 @@ syntax = "proto3";
 package books;
 
 service BookService {
-  rpc List (Empty) returns (BookList) {}
-  rpc Insert (Book) returns (Empty) {}
-  rpc Get (BookIdRequest) returns (Book) {}
-  rpc Delete (BookIdRequest) returns (Empty) {}
+  rpc List (Empty) returns (BookList);
+  rpc Insert (Book) returns (Empty);
+  rpc Get (BookIdRequest) returns (Book);
+  rpc Delete (BookIdRequest) returns (Empty);
 }
 
 message Empty {}

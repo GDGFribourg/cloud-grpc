@@ -104,7 +104,7 @@ var _ grpc.ClientConn
 
 // This is a compile-time assertion to ensure that this generated file
 // is compatible with the grpc package it is being compiled against.
-const _ = grpc.SupportPackageIsVersion3
+const _ = grpc.SupportPackageIsVersion4
 
 // Client API for BookService service
 
@@ -327,7 +327,7 @@ var _BookService_serviceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: fileDescriptor0,
+	Metadata: "books.proto",
 }
 
 func init() { proto.RegisterFile("books.proto", fileDescriptor0) }

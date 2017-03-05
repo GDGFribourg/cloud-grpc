@@ -14,7 +14,7 @@ syntax = "proto3";
 package books;
 
 service BookService {
-  rpc List (Empty) returns (BookList) {}
+  rpc List (Empty) returns (BookList);
 }
 
 message Empty {}

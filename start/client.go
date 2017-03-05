@@ -9,6 +9,8 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
+//go:generate protoc -I ../complete ../complete/books.proto --go_out=plugins=grpc:books
+
 package main
 
 import (
